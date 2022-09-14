@@ -6,5 +6,5 @@ Welcome to Uni-verse! Uni-verse is the next step in online collaborative learnin
 2. Clone this repository to desired location on local device. 
 3. Copy any of the folders in your Unity project that are not in the cloned repository into the repository. (Files like library which are too large to be uploaded to git hub)
 4. Go to Unity Hub, click open and select the cloned repository. You should now be able to view the full project. 
-
+5. Call git pull on the repository in bash to make sure everuthing is up to date. You should now be able work on and commit changes to the project. 
 
