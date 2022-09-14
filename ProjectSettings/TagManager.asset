@@ -41,8 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Colliders
+    uniqueID: 1755256205
+    locked: 0
   - name: Background
     uniqueID: 369891351
+    locked: 0
+  - name: Objects
+    uniqueID: 4165226331
     locked: 0
   - name: UI
     uniqueID: 3445651211
