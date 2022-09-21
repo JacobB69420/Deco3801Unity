@@ -9,6 +9,7 @@ public class ButtonUI : MonoBehaviour
     [SerializeField] private string toMeetingRoom = "Meeting Room";
     [SerializeField] private string toCreator = "CharacterCreator";
     [SerializeField] private string toOverworld = "Overworld";
+    [SerializeField] private string toWhiteboard = "Whiteboard";
 
     public void loginButton()
     {
@@ -25,5 +26,9 @@ public class ButtonUI : MonoBehaviour
 
     public void overworldButton() {
         SceneManager.LoadScene(toOverworld);
+    }
+
+    public void whiteboardButton(){
+        SceneManager.LoadScene(toWhiteboard);
     }
 }
