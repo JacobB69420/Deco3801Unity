@@ -563,7 +563,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1608937665}
         m_TargetAssemblyTypeName: ButtonUI, Assembly-CSharp
-        m_MethodName: loginButton
+        m_MethodName: creatorButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -862,7 +862,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 369891351
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 98df9130505cd2b44a9d780bd26eabf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
