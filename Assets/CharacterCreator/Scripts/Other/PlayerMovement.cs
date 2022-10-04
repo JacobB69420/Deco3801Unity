@@ -2,8 +2,9 @@
 // For help, check out the tutorial - https://youtu.be/PNWK5o9l54w
 
 using UnityEngine;
+using Unity.Netcode;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : NetworkBehaviour
 {
     // ~~ 1. Controls All Player Movement
     // ~~ 2. Updates Animator to Play Idle & Walking Animations
