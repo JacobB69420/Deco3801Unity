@@ -31,6 +31,7 @@ public class PlayerMovement : NetworkBehaviour
 
     private void UpdateAnimationAndMove()
     {
+        if (!IsOwner) return;
         if (playerMovement != Vector3.zero)
         {
             MoveCharacter();
