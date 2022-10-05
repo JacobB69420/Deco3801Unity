@@ -910,7 +910,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Eyes
+  m_Text: Shirt color
 --- !u!222 &414218421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1542,7 +1542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Avatar
+  m_Text: Character
 --- !u!222 &755818287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2100,7 +2100,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Create Your Avatar!
+  m_Text: Create Your Character!
 --- !u!222 &1102342073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3656,6 +3656,7 @@ MonoBehaviour:
   toMeetingRoom: Meeting Room
   toCreator: CharacterCreator
   toOverworld: Overworld
+  toWhiteboard: Whiteboard
 --- !u!1 &1999301403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4020,7 +4021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shirt Color
+  m_Text: Pants Color
 --- !u!222 &2056865507
 CanvasRenderer:
   m_ObjectHideFlags: 0
