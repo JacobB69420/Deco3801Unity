@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df806b76bddfeee42aba3002e1cea27c, type: 3}
+  m_Name: Face
+  m_EditorClassIdentifier: 
+  faceComponents:
+  - Name: Base
+    faceComponent: {fileID: 11400000, guid: 4bb92268b58f6bf4f87ff9035fd837d1, type: 2}
+  - Name: Shirt
+    faceComponent: {fileID: 11400000, guid: d3a68e3141cf53b4b99b065721c67779, type: 2}
+  - Name: Nose
+    faceComponent: {fileID: 11400000, guid: 2dda22fbb8d674d4a8d0855236a49891, type: 2}
+  - Name: Expression
+    faceComponent: {fileID: 11400000, guid: b7305b68e75c1464db2d0ba6a5e31e94, type: 2}
+  - Name: Hair
+    faceComponent: {fileID: 11400000, guid: 8ff5279bf054e8841bd02fefa0d03876, type: 2}
