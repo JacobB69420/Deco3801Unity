@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
   m_Name: Hair_7
   m_EditorClassIdentifier: 
-  Name: Black Long
-  component: {fileID: 1234008084, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  Name: Black Bowl
+  component: {fileID: -195005680, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 4
+  allfacePartAnimations:
+  - {fileID: 7400000, guid: 81121ceadd0d5c7468e9fe28269ac6f0, type: 2}

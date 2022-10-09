@@ -10,4 +10,10 @@ public class SO_FaceComponent : ScriptableObject
 
     // Store Sprite of component
     public Sprite component;
+
+    // Store animation
+    public int facePartAnimationID;
+
+    // List Containing All Body Part Animations
+    public List<AnimationClip> allfacePartAnimations = new List<AnimationClip>();
 }

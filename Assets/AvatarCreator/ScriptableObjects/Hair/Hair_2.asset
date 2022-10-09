@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
   m_Name: Hair_2
   m_EditorClassIdentifier: 
-  Name: Blonde Bowl
-  component: {fileID: 122283521, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  Name: Blonde Short
+  component: {fileID: 2066926835, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 4
+  allfacePartAnimations:
+  - {fileID: 7400000, guid: b9375585c603f3943b39bcbd930fe086, type: 2}

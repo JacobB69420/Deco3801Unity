@@ -70,8 +70,10 @@ public class FaceSelector : MonoBehaviour
 
     private void GetCurrentFaceParts(int partIndex)
     {
-        // Get Current Body Part Name
+        // Get Current Face Part Name
         faceSelections[partIndex].facePartTextComponent.text = face.faceComponents[partIndex].faceComponent.Name;
+        // Get Current Face Part Animation ID
+        faceSelections[partIndex].facePartCurrentIndex = face.faceComponents[partIndex].faceComponent.facePartAnimationID;
     }
 
     private void UpdateCurrentPart(int partIndex)

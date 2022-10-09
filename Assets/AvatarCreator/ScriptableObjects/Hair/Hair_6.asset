@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
   m_Name: Hair_6
   m_EditorClassIdentifier: 
-  Name: Brown Short
-  component: {fileID: 0}
+  Name: Black Long
+  component: {fileID: 1234008084, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 4
+  allfacePartAnimations:
+  - {fileID: 7400000, guid: 57f5599593aef0049ad1342620f964e0, type: 2}

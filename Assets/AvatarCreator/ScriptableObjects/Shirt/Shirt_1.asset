@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
   m_Name: Shirt_1
   m_EditorClassIdentifier: 
-  Name: Blue Shirt
-  component: {fileID: -852007472, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  Name: Yellow Shirt
+  component: {fileID: 1835058586, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 1
+  allfacePartAnimations:
+  - {fileID: 7400000, guid: 1628d31f71b925f4d89f08043298a9e9, type: 2}

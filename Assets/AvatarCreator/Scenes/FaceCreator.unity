@@ -1792,6 +1792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897751171}
   - component: {fileID: 897751172}
+  - component: {fileID: 897751173}
   m_Layer: 5
   m_Name: Face
   m_TagString: Untagged
@@ -1843,6 +1844,26 @@ MonoBehaviour:
   - Nose
   - Expression
   - Hair
+--- !u!95 &897751173
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897751170}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be0500d19edaa1c469b82fad82259fb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &902817415
 GameObject:
   m_ObjectHideFlags: 0
