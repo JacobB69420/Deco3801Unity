@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 22278120ed92fdb4193232109c1a7c62
+guid: 154ce90ba74e5784fa1edc5e58d4fbcf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5253316977630655212
-    second: 3frame_character_torso_0
+      213: 1955445311070395896
+    second: 3frame_character_body_0
   - first:
-      213: -302238117444555354
-    second: 3frame_character_torso_1
+      213: 2095724405837921888
+    second: 3frame_character_body_1
   - first:
-      213: 8127651544978494305
-    second: 3frame_character_torso_2
+      213: -6091693940602190714
+    second: 3frame_character_body_2
   - first:
-      213: 6738567423350854838
-    second: 3frame_character_torso_3
+      213: 5812203028350501791
+    second: 3frame_character_body_3
   - first:
-      213: 3728623526018766680
-    second: 3frame_character_torso_4
+      213: 8601856384014542012
+    second: 3frame_character_body_4
   - first:
-      213: 8605772042573305103
-    second: 3frame_character_torso_5
+      213: 6079658446594480526
+    second: 3frame_character_body_5
   - first:
-      213: -8504521117873672825
-    second: 3frame_character_torso_6
+      213: 7784273966139345125
+    second: 3frame_character_body_6
   - first:
-      213: -3663945391355047956
-    second: 3frame_character_torso_7
+      213: -1258354984272604373
+    second: 3frame_character_body_7
   - first:
-      213: -275374405981405242
-    second: 3frame_character_torso_8
+      213: 6288189982264205437
+    second: 3frame_character_body_8
   - first:
-      213: 1773436100734927446
-    second: 3frame_character_torso_9
+      213: -7865894142185083108
+    second: 3frame_character_body_9
   - first:
-      213: 824711151453431541
-    second: 3frame_character_torso_10
+      213: 4336965165473942647
+    second: 3frame_character_body_10
   - first:
-      213: -8283079844504661622
-    second: 3frame_character_torso_11
+      213: -7219570631426118510
+    second: 3frame_character_body_11
   - first:
-      213: 5779198043044474482
-    second: 3frame_character_torso_12
+      213: -8992585661968821989
+    second: 3frame_character_body_12
   - first:
-      213: 2588829072479384257
-    second: 3frame_character_torso_13
+      213: 6407941872125734460
+    second: 3frame_character_body_13
   - first:
-      213: -4332948258993807871
-    second: 3frame_character_torso_14
+      213: 3607486817665366878
+    second: 3frame_character_body_14
   - first:
-      213: -6991643011220450808
-    second: 3frame_character_torso_15
+      213: 2491837436991601378
+    second: 3frame_character_body_15
   - first:
-      213: -3845134796476689761
-    second: 3frame_character_torso_16
+      213: -7908075892314864185
+    second: 3frame_character_body_16
   - first:
-      213: -5546248105054073105
-    second: 3frame_character_torso_17
+      213: 4745579763691626134
+    second: 3frame_character_body_17
   - first:
-      213: -9134019724983306224
-    second: 3frame_character_torso_18
+      213: -963391377576429967
+    second: 3frame_character_body_18
   - first:
-      213: 6102246637840853795
-    second: 3frame_character_torso_19
+      213: 919866490036693179
+    second: 3frame_character_body_19
   - first:
-      213: 7496748887807634623
-    second: 3frame_character_torso_20
+      213: -6107644025132194875
+    second: 3frame_character_body_20
   - first:
-      213: 5303549222057235318
-    second: 3frame_character_torso_21
+      213: -5154250809342407583
+    second: 3frame_character_body_21
   - first:
-      213: 4025709621513169919
-    second: 3frame_character_torso_22
+      213: -6844637228376950368
+    second: 3frame_character_body_22
   - first:
-      213: -5381860027003716453
-    second: 3frame_character_torso_23
+      213: -676837871482564937
+    second: 3frame_character_body_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -164,7 +164,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3frame_character_torso_0
+      name: 3frame_character_body_0
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41dcbc7ca087817b0800000000000000
-      internalID: -5253316977630655212
+      spriteID: 8fddd086623232b10800000000000000
+      internalID: 1955445311070395896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_1
+      name: 3frame_character_body_1
       rect:
         serializedVersion: 2
         x: 16
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ad6224980c3ecbf0800000000000000
-      internalID: -302238117444555354
+      spriteID: 06ef5155e32851d10800000000000000
+      internalID: 2095724405837921888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_2
+      name: 3frame_character_body_2
       rect:
         serializedVersion: 2
         x: 32
@@ -220,14 +220,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163199c94083bc070800000000000000
-      internalID: 8127651544978494305
+      spriteID: 684c10ed2a4f57ba0800000000000000
+      internalID: -6091693940602190714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_3
+      name: 3frame_character_body_3
       rect:
         serializedVersion: 2
         x: 48
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b4d8db7e53348d50800000000000000
-      internalID: 6738567423350854838
+      spriteID: f9308432cd719a050800000000000000
+      internalID: 5812203028350501791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_4
+      name: 3frame_character_body_4
       rect:
         serializedVersion: 2
         x: 64
@@ -262,14 +262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8575381875bbeb330800000000000000
-      internalID: 3728623526018766680
+      spriteID: cb4ec128eceef5770800000000000000
+      internalID: 8601856384014542012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_5
+      name: 3frame_character_body_5
       rect:
         serializedVersion: 2
         x: 80
@@ -283,14 +283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05d19fc318dd6770800000000000000
-      internalID: 8605772042573305103
+      spriteID: e8997f055294f5450800000000000000
+      internalID: 6079658446594480526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_6
+      name: 3frame_character_body_6
       rect:
         serializedVersion: 2
         x: 96
@@ -304,14 +304,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78de4582a1fd9f980800000000000000
-      internalID: -8504521117873672825
+      spriteID: 5e88e0aedeb470c60800000000000000
+      internalID: 7784273966139345125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_7
+      name: 3frame_character_body_7
       rect:
         serializedVersion: 2
         x: 112
@@ -325,14 +325,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef4ad7341d072dc0800000000000000
-      internalID: -3663945391355047956
+      spriteID: b23d6111fcc698ee0800000000000000
+      internalID: -1258354984272604373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_8
+      name: 3frame_character_body_8
       rect:
         serializedVersion: 2
         x: 128
@@ -346,14 +346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf7e3fcf6cad2cf0800000000000000
-      internalID: -275374405981405242
+      spriteID: d70270df873244750800000000000000
+      internalID: 6288189982264205437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_9
+      name: 3frame_character_body_9
       rect:
         serializedVersion: 2
         x: 144
@@ -367,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652c820dcb28c9810800000000000000
-      internalID: 1773436100734927446
+      spriteID: c1f6b36f3fab6d290800000000000000
+      internalID: -7865894142185083108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_10
+      name: 3frame_character_body_10
       rect:
         serializedVersion: 2
         x: 160
@@ -388,14 +388,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f66fa83c66f17b00800000000000000
-      internalID: 824711151453431541
+      spriteID: 77c415bf6deff2c30800000000000000
+      internalID: 4336965165473942647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_11
+      name: 3frame_character_body_11
       rect:
         serializedVersion: 2
         x: 176
@@ -409,14 +409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a811a1e54c69c0d80800000000000000
-      internalID: -8283079844504661622
+      spriteID: 29ce00bf2ceeecb90800000000000000
+      internalID: -7219570631426118510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_12
+      name: 3frame_character_body_12
       rect:
         serializedVersion: 2
         x: 0
@@ -430,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27e6c4a2006d33050800000000000000
-      internalID: 5779198043044474482
+      spriteID: b11d3163cfae33380800000000000000
+      internalID: -8992585661968821989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_13
+      name: 3frame_character_body_13
       rect:
         serializedVersion: 2
         x: 16
@@ -451,14 +451,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c27651435e5de320800000000000000
-      internalID: 2588829072479384257
+      spriteID: c3ee7659e259de850800000000000000
+      internalID: 6407941872125734460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_14
+      name: 3frame_character_body_14
       rect:
         serializedVersion: 2
         x: 32
@@ -472,14 +472,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10ed680f3864ed3c0800000000000000
-      internalID: -4332948258993807871
+      spriteID: e5b39dab52e501230800000000000000
+      internalID: 3607486817665366878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_15
+      name: 3frame_character_body_15
       rect:
         serializedVersion: 2
         x: 48
@@ -493,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 802dcdf79b1b8fe90800000000000000
-      internalID: -6991643011220450808
+      spriteID: 2ea77e552f8c49220800000000000000
+      internalID: 2491837436991601378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_16
+      name: 3frame_character_body_16
       rect:
         serializedVersion: 2
         x: 64
@@ -514,14 +514,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f925386664653aac0800000000000000
-      internalID: -3845134796476689761
+      spriteID: 7c50ebdefded04290800000000000000
+      internalID: -7908075892314864185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_17
+      name: 3frame_character_body_17
       rect:
         serializedVersion: 2
         x: 80
@@ -535,14 +535,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee8116dbb4c703b0800000000000000
-      internalID: -5546248105054073105
+      spriteID: 69e1f14e6afabd140800000000000000
+      internalID: 4745579763691626134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_18
+      name: 3frame_character_body_18
       rect:
         serializedVersion: 2
         x: 96
@@ -556,14 +556,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01875f844717d3180800000000000000
-      internalID: -9134019724983306224
+      spriteID: 176f1e775a851a2f0800000000000000
+      internalID: -963391377576429967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_19
+      name: 3frame_character_body_19
       rect:
         serializedVersion: 2
         x: 112
@@ -577,14 +577,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32b635c6cf88fa450800000000000000
-      internalID: 6102246637840853795
+      spriteID: bb82c63f2b504cc00800000000000000
+      internalID: 919866490036693179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_20
+      name: 3frame_character_body_20
       rect:
         serializedVersion: 2
         x: 128
@@ -598,14 +598,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbc241cd46dc90860800000000000000
-      internalID: 7496748887807634623
+      spriteID: 5c3657b6e1a4d3ba0800000000000000
+      internalID: -6107644025132194875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_21
+      name: 3frame_character_body_21
       rect:
         serializedVersion: 2
         x: 144
@@ -619,14 +619,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67355850bedf99940800000000000000
-      internalID: 5303549222057235318
+      spriteID: 16c40e1823c6878b0800000000000000
+      internalID: -5154250809342407583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_22
+      name: 3frame_character_body_22
       rect:
         serializedVersion: 2
         x: 160
@@ -640,14 +640,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb2a2752913ed730800000000000000
-      internalID: 4025709621513169919
+      spriteID: 0a97d2a84b6f201a0800000000000000
+      internalID: -6844637228376950368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3frame_character_torso_23
+      name: 3frame_character_body_23
       rect:
         serializedVersion: 2
         x: 176
@@ -661,8 +661,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9cb19bd1dacf45b0800000000000000
-      internalID: -5381860027003716453
+      spriteID: 7be00cbba836b96f0800000000000000
+      internalID: -676837871482564937
       vertices: []
       indices: 
       edges: []
@@ -678,30 +678,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3frame_character_torso_22: 4025709621513169919
-      3frame_character_torso_17: -5546248105054073105
-      3frame_character_torso_11: -8283079844504661622
-      3frame_character_torso_10: 824711151453431541
-      3frame_character_torso_19: 6102246637840853795
-      3frame_character_torso_6: -8504521117873672825
-      3frame_character_torso_23: -5381860027003716453
-      3frame_character_torso_7: -3663945391355047956
-      3frame_character_torso_0: -5253316977630655212
-      3frame_character_torso_5: 8605772042573305103
-      3frame_character_torso_16: -3845134796476689761
-      3frame_character_torso_18: -9134019724983306224
-      3frame_character_torso_8: -275374405981405242
-      3frame_character_torso_12: 5779198043044474482
-      3frame_character_torso_14: -4332948258993807871
-      3frame_character_torso_15: -6991643011220450808
-      3frame_character_torso_1: -302238117444555354
-      3frame_character_torso_13: 2588829072479384257
-      3frame_character_torso_4: 3728623526018766680
-      3frame_character_torso_2: 8127651544978494305
-      3frame_character_torso_9: 1773436100734927446
-      3frame_character_torso_20: 7496748887807634623
-      3frame_character_torso_21: 5303549222057235318
-      3frame_character_torso_3: 6738567423350854838
+      3frame_character_body_1: 2095724405837921888
+      3frame_character_body_3: 5812203028350501791
+      3frame_character_body_11: -7219570631426118510
+      3frame_character_body_10: 4336965165473942647
+      3frame_character_body_17: 4745579763691626134
+      3frame_character_body_16: -7908075892314864185
+      3frame_character_body_18: -963391377576429967
+      3frame_character_body_4: 8601856384014542012
+      3frame_character_body_14: 3607486817665366878
+      3frame_character_body_20: -6107644025132194875
+      3frame_character_body_2: -6091693940602190714
+      3frame_character_body_8: 6288189982264205437
+      3frame_character_body_23: -676837871482564937
+      3frame_character_body_13: 6407941872125734460
+      3frame_character_body_6: 7784273966139345125
+      3frame_character_body_19: 919866490036693179
+      3frame_character_body_9: -7865894142185083108
+      3frame_character_body_22: -6844637228376950368
+      3frame_character_body_7: -1258354984272604373
+      3frame_character_body_12: -8992585661968821989
+      3frame_character_body_21: -5154250809342407583
+      3frame_character_body_15: 2491837436991601378
+      3frame_character_body_5: 6079658446594480526
+      3frame_character_body_0: 1955445311070395896
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

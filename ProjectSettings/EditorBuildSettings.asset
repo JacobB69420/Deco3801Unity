@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CharacterCreator/Scenes/CharacterCreator.unity
     guid: dfd30d4ec6a74bf4ab479e1a7808b02f
+  - enabled: 1
+    path: Assets/AvatarCreator/Scenes/FaceCreator.unity
+    guid: 8a98fab0dcc12c94eb401eae1bcdbf66
   m_configObjects: {}
