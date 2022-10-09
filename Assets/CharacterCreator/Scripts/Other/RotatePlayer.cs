@@ -2,8 +2,9 @@
 // For help, check out the tutorial - https://youtu.be/PNWK5o9l54w
 
 using UnityEngine;
+using Unity.Netcode;
 
-public class RotatePlayer : MonoBehaviour
+public class RotatePlayer : NetworkBehaviour
 {
     // ~~ 1. Handles animation updates to rotate player
 
