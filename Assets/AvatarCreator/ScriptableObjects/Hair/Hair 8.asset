@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
-  m_Name: Base_1
+  m_Name: Hair 8
   m_EditorClassIdentifier: 
-  Name: Dark Skin
-  component: {fileID: -877206590, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
-  facePartAnimationID: 0
+  Name: Black Short
+  component: {fileID: 1031058274, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 9
   allfacePartAnimations:
-  - {fileID: 7400000, guid: 65578aaf41286e84f9a31754453dcbd5, type: 2}
+  - {fileID: 7400000, guid: 8de063ebacc7774449c4b4dd301dc399, type: 2}

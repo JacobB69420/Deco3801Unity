@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
-  m_Name: Hair_3
+  m_Name: Base 0
   m_EditorClassIdentifier: 
-  Name: Brown Long
-  component: {fileID: -919802086, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
-  facePartAnimationID: 4
+  Name: Light Skin
+  component: {fileID: 1886395292, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 0
   allfacePartAnimations:
-  - {fileID: 7400000, guid: da98184e6f1290046ab3d65c61feb879, type: 2}
+  - {fileID: 7400000, guid: 670dfd25bb450894fabbd0edcbe21305, type: 2}

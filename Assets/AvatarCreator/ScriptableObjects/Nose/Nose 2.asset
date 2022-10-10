@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
-  m_Name: Hair_4
+  m_Name: Nose 2
   m_EditorClassIdentifier: 
-  Name: Brown Bowl
-  component: {fileID: -278495566, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
-  facePartAnimationID: 4
+  Name: Nose 3
+  component: {fileID: 1328091596, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 2
   allfacePartAnimations:
-  - {fileID: 7400000, guid: bab1dcf239cc47945bb6a3e9d4dbd6d2, type: 2}
+  - {fileID: 7400000, guid: 7702c1ba018bd4f41a79ffcd3e868bb2, type: 2}

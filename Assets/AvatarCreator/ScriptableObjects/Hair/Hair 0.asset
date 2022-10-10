@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cb3bfc1d53bb5944a2b5b197950fe6b, type: 3}
-  m_Name: Nose_1
+  m_Name: Hair 0
   m_EditorClassIdentifier: 
-  Name: Nose 2
-  component: {fileID: 1235039082, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
-  facePartAnimationID: 2
+  Name: Blonde Long
+  component: {fileID: -1407561057, guid: b8c1ef99719ce40448b18fc81a925002, type: 3}
+  facePartAnimationID: 0
   allfacePartAnimations:
-  - {fileID: 7400000, guid: 15a43c0c98882e240b8059e803ccd0e8, type: 2}
+  - {fileID: 7400000, guid: 82e75df139069ca458589fab810d2dd1, type: 2}
