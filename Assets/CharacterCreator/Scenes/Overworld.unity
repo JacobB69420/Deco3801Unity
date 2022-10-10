@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_MaxConnectAttempts: 60
   m_DisconnectTimeoutMS: 30000
   ConnectionData:
-    Address: 127.0.0.1
+    Address: 10.89.196.41
     Port: 7777
     ServerListenAddress: 
   DebugSimulator:
@@ -3217,7 +3217,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6436857206599256033, guid: 736117f873cb43a4eaeb76a5b0cd5bf8, type: 3}
   m_PrefabInstance: {fileID: 6436857208555146206}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2090110022
+--- !u!114 &2090110016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3226,7 +3226,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 977908978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
