@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2c13bb436f1312f469195ed617af8763
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FONTSPRING DEMO - Armin Grotesk UltraBold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9ac873324b848f24095311f4a53571e8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
