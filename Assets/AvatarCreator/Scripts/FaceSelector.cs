@@ -36,6 +36,12 @@ public class FaceSelector : MonoBehaviour
         noseRenderer = noseSprite.GetComponent<SpriteRenderer>();
         exprRenderer = exprSprite.GetComponent<SpriteRenderer>();
         shirtRenderer = shirtSprite.GetComponent<SpriteRenderer>();
+
+        baseRenderer.sprite = face.faceComponents[0].faceComponent.component;
+        hairRenderer.sprite = face.faceComponents[4].faceComponent.component;
+        noseRenderer.sprite = face.faceComponents[2].faceComponent.component;
+        exprRenderer.sprite = face.faceComponents[3].faceComponent.component;
+        shirtRenderer.sprite = face.faceComponents[1].faceComponent.component;
     }
 
     public void NextFacePart(int partIndex)
