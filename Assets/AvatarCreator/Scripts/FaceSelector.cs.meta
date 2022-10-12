@@ -3,7 +3,18 @@ guid: cbc58cc4b6985a84eba8f2123d568692
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - face: {fileID: 11400000, guid: 8fbbd419a090a7945b6b24e79f2663ba, type: 2}
+  - baseSprite: {instanceID: 0}
+  - baseRenderer: {instanceID: 0}
+  - hairSprite: {instanceID: 0}
+  - hairRenderer: {instanceID: 0}
+  - noseSprite: {instanceID: 0}
+  - noseRenderer: {instanceID: 0}
+  - exprSprite: {instanceID: 0}
+  - exprRenderer: {instanceID: 0}
+  - shirtSprite: {instanceID: 0}
+  - shirtRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

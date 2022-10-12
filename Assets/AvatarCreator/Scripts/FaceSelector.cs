@@ -10,7 +10,18 @@ public class FaceSelector : MonoBehaviour
     // Face Selections
     [SerializeField] private FaceSelection[] faceSelections;
 
-
+    // Game objects and renderers
+    [SerializeField] private GameObject baseSprite;
+    private SpriteRenderer baseRenderer;
+    [SerializeField] private GameObject hairSprite;
+    private SpriteRenderer hairRenderer;
+    [SerializeField] private GameObject noseSprite;
+    private SpriteRenderer noseRenderer;
+    [SerializeField] private GameObject exprSprite;
+    private SpriteRenderer exprRenderer;
+    [SerializeField] private GameObject shirtSprite;
+    private SpriteRenderer shirtRenderer;
+    
     // Start is called before the first frame update
     private void Start()
     {
@@ -19,11 +30,17 @@ public class FaceSelector : MonoBehaviour
         {
             GetCurrentFaceParts(i);
         }
+        // Initialise all sprite renderer objects
+        baseRenderer = baseSprite.GetComponent<SpriteRenderer>();
+        hairRenderer = hairSprite.GetComponent<SpriteRenderer>();
+        noseRenderer = noseSprite.GetComponent<SpriteRenderer>();
+        exprRenderer = exprSprite.GetComponent<SpriteRenderer>();
+        shirtRenderer = shirtSprite.GetComponent<SpriteRenderer>();
     }
 
-    public void NextBodyPart(int partIndex)
+    public void NextFacePart(int partIndex)
     {
-        if (ValidateIndexValue(partIndex))
+        if (ValidateFaceIndexValue(partIndex))
         {
             if (faceSelections[partIndex].facePartCurrentIndex < faceSelections[partIndex].faceOptions.Length - 1)
             {
@@ -34,13 +51,13 @@ public class FaceSelector : MonoBehaviour
                 faceSelections[partIndex].facePartCurrentIndex = 0;
             }
 
-            UpdateCurrentPart(partIndex);
+            UpdateCurrentfacePart(partIndex);
         }
     }
 
-    public void PreviousBody(int partIndex)
+    public void PreviousFace(int partIndex)
     {
-        if (ValidateIndexValue(partIndex))
+        if (ValidateFaceIndexValue(partIndex))
         {
             if (faceSelections[partIndex].facePartCurrentIndex > 0)
             {
@@ -51,11 +68,11 @@ public class FaceSelector : MonoBehaviour
                 faceSelections[partIndex].facePartCurrentIndex = faceSelections[partIndex].faceOptions.Length - 1;
             }
 
-            UpdateCurrentPart(partIndex);
+            UpdateCurrentfacePart(partIndex);
         }    
     }
 
-    private bool ValidateIndexValue(int partIndex)
+    private bool ValidateFaceIndexValue(int partIndex)
     {
         if (partIndex > faceSelections.Length || partIndex < 0)
         {
@@ -76,12 +93,23 @@ public class FaceSelector : MonoBehaviour
         faceSelections[partIndex].facePartCurrentIndex = face.faceComponents[partIndex].faceComponent.facePartAnimationID;
     }
 
-    private void UpdateCurrentPart(int partIndex)
+    private void UpdateCurrentfacePart(int partIndex)
     {
         // Update Selection Name Text
         faceSelections[partIndex].facePartTextComponent.text = faceSelections[partIndex].faceOptions[faceSelections[partIndex].facePartCurrentIndex].Name;
         // Update Character Body Part
         face.faceComponents[partIndex].faceComponent = faceSelections[partIndex].faceOptions[faceSelections[partIndex].facePartCurrentIndex];
+        // Update Sprite
+        if(partIndex == 0)
+        {baseRenderer.sprite = face.faceComponents[partIndex].faceComponent.component;}
+        if(partIndex == 1)
+        {shirtRenderer.sprite = face.faceComponents[partIndex].faceComponent.component;}
+        if(partIndex == 2)
+        {noseRenderer.sprite = face.faceComponents[partIndex].faceComponent.component;}
+        if(partIndex == 3)
+        {exprRenderer.sprite = face.faceComponents[partIndex].faceComponent.component;}
+        if(partIndex == 4)
+        {hairRenderer.sprite = face.faceComponents[partIndex].faceComponent.component;}
     }
 }
 
