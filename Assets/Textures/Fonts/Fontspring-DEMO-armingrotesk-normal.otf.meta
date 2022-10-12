@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: affeab19d505b834d83efa1cb258033b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - FONTSPRING DEMO - Armin Grotesk Normal
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e344b166dfa1643429c71d10765d00f0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
