@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140916272}
   m_Layer: 5
-  m_Name: Hair Selection
+  m_Name: Hairstyle Selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -592,18 +592,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1700227717}
-        m_TargetAssemblyTypeName: SelectCharacterBodyParts, Assembly-CSharp
-        m_MethodName: NextBodyPart
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 790482755}
         m_TargetAssemblyTypeName: BodyPartsManager, Assembly-CSharp
         m_MethodName: UpdateBodyParts
@@ -809,7 +797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 359352110}
   m_Layer: 5
-  m_Name: Torso Selection
+  m_Name: Expression Selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -910,7 +898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shirt color
+  m_Text: Expression
 --- !u!222 &414218421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1035,7 +1023,7 @@ GameObject:
   - component: {fileID: 497256553}
   - component: {fileID: 497256554}
   m_Layer: 0
-  m_Name: Legs
+  m_Name: Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,7 +1346,7 @@ GameObject:
   - component: {fileID: 668369680}
   - component: {fileID: 668369681}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1441,7 +1429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747117927}
   m_Layer: 5
-  m_Name: Pants Selection
+  m_Name: Shirt Selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1542,7 +1530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Character
+  m_Text: Avatar
 --- !u!222 &755818287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1999,7 +1987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068546360}
   m_Layer: 5
-  m_Name: Body Selection
+  m_Name: Skin Selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2100,7 +2088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Create Your Character!
+  m_Text: Create Your Avatar!
 --- !u!222 &1102342073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2908,7 +2896,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Selected Torso
+  m_Text: Selected Expr
 --- !u!222 &1468974116
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3276,7 +3264,7 @@ GameObject:
   - component: {fileID: 1716435757}
   - component: {fileID: 1716435758}
   m_Layer: 0
-  m_Name: Hair
+  m_Name: Hairstyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4021,7 +4009,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pants Color
+  m_Text: Shirt Color
 --- !u!222 &2056865507
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4041,7 +4029,7 @@ GameObject:
   - component: {fileID: 2105419437}
   - component: {fileID: 2105419438}
   m_Layer: 0
-  m_Name: Torso
+  m_Name: Expression
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
