@@ -13,6 +13,8 @@ public class ButtonUI : MonoBehaviour
     [SerializeField] private string toOverworld = "Overworld";
     [SerializeField] private string toWhiteboard = "Whiteboard";
     [SerializeField] private string toFace = "FaceCreator";
+    [SerializeField] private string toDashboard = "Dashboard";
+    [SerializeField] private string toSettings = "Settings";
 
     // Functions to be used with onClick in Button objects
     public void loginButton()
@@ -38,5 +40,15 @@ public class ButtonUI : MonoBehaviour
     
     public void faceCreatorButtton() {
         SceneManager.LoadScene(toFace);
+    }
+
+    public void dashboardButton()
+    {
+        SceneManager.LoadScene(toDashboard);
+    }
+
+    public void settingsButtton()
+    {
+        SceneManager.LoadScene(toSettings);
     }
 }
