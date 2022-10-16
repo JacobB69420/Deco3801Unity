@@ -1,14 +1,15 @@
-﻿// Code written by tutmo (youtube.com/tutmo)
+// Code written by tutmo (youtube.com/tutmo)
 // For help, check out the tutorial - https://youtu.be/PNWK5o9l54w
 
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BodyPartsManager : MonoBehaviour
+public class BodyPartManagerUnique : MonoBehaviour
 {
     // ~~ 1. Updates All Animations to Match Player Selections
 
-    [SerializeField] public SO_CharacterBody characterBody;
+    [SerializeField] public int[] bodyPartIndexes;
+
 
     // String Arrays
     [SerializeField] private string[] bodyPartTypes;
@@ -37,14 +38,15 @@ public class BodyPartsManager : MonoBehaviour
 
     public void UpdateBodyParts()
     {
-
         // Override default animation clips with character body parts
         for (int partIndex = 0; partIndex < bodyPartTypes.Length; partIndex++)
         {
+            Debug.Log(bodyPartIndexes[0]);
+
             // Get current body part
             string partType = bodyPartTypes[partIndex];
             // Get current body part ID
-            string partID = characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID.ToString();
+            string partID = bodyPartIndexes[partIndex].ToString();
 
             for (int stateIndex = 0; stateIndex < characterStates.Length; stateIndex++)
             {
@@ -65,7 +67,6 @@ public class BodyPartsManager : MonoBehaviour
 
         // Apply updated animations
         animatorOverrideController.ApplyOverrides(defaultAnimationClips);
-
     }
 
     public class AnimationClipOverrides : List<KeyValuePair<AnimationClip, AnimationClip>>
