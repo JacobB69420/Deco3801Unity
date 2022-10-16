@@ -13,13 +13,16 @@ public class BodyPartsSelector : MonoBehaviour
     // Body Part Selections
     [SerializeField] private BodyPartSelection[] bodyPartSelections;
 
+
     private void Start()
     {
+
         // Get All Current Body Parts
         for (int i = 0; i < bodyPartSelections.Length; i++)
         {
             GetCurrentBodyParts(i);
         }
+
     }
 
     public void NextBodyPart(int partIndex)
@@ -83,7 +86,9 @@ public class BodyPartsSelector : MonoBehaviour
         bodyPartSelections[partIndex].bodyPartNameTextComponent.text = bodyPartSelections[partIndex].bodyPartOptions[bodyPartSelections[partIndex].bodyPartCurrentIndex].bodyPartName;
         // Update Character Body Part
         characterBody.characterBodyParts[partIndex].bodyPart = bodyPartSelections[partIndex].bodyPartOptions[bodyPartSelections[partIndex].bodyPartCurrentIndex];
+        Debug.Log(characterBody.characterBodyParts[partIndex].bodyPart.bodyPartAnimationID);
     }
+
 }
 
 [System.Serializable]
