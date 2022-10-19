@@ -4,7 +4,6 @@ Welcome to Uni-verse! Uni-verse is the next step in online collaborative learnin
 
 ## Relevent Links
 1. Link to Repository: https://github.com/JacobB69420/Deco3801Unity
-2. Link to Demonstration of Working Prototype:
 
 ## Initial Set Up from repository:
 1. Go to Unity Hub and create a new project. 
@@ -15,7 +14,9 @@ Welcome to Uni-verse! Uni-verse is the next step in online collaborative learnin
 ## Required Unity Packages
 1. PUN - Photon Engine
 2. Free Draw - Simple Drawing on Sprites/2D Textures
-Please ensure you import these assests into the project before attempting to build.
+3. Agora Video SDK
+4. Agora Voice SDK
+Please ensure you import these assests into the project before attempting to build. This can be done from the Unity assets store. Then select the Package manager in the project (Unity Editor) and import the assets. 
 ### Setting up Photon Unity Package:
 1. Click "Add to My Assets" on the following URL. https://assetstore.unity.com/packages/tools/network/pun-2-free-119922
 2. This should open the Package Manager in Unity, click Import Package.
@@ -40,6 +41,8 @@ You should now have Photon installed and the app should compile correctly.
 2. Unity Editor, 2021.3.8f1 and higher.
 3. Visual Studio, Latest.
 4. PUN - Photon Engine, 2.41.
+5. Agora Video SDK, 4.0.1.
+6. Agora Voice SDK, 4.0.1.
 
 ## References
 https://github.com/tutmo/2D-Character-Creator
