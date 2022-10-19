@@ -40,3 +40,6 @@ You should now have Photon installed and the app should compile correctly.
 2. Unity Editor, 2021.3.8f1 and higher.
 3. Visual Studio, Latest.
 4. PUN - Photon Engine, 2.41.
+
+## References
+https://github.com/tutmo/2D-Character-Creator
